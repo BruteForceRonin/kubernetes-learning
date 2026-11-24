@@ -142,11 +142,3 @@ kubectl autoscale deploy order-service --cpu-percent=50 --min=2 --max=5
 This creates an HPA, but it will not scale without a working metrics API. A
 default kind cluster does not include metrics-server.
 
-## Quick self-check
-
-Try answering these in your own words:
-
-1. What is the difference between an image and a container?
-2. Why do we need a Service when pods already have IPs?
-3. What happens when you delete a pod that belongs to a Deployment, and which
-   component handles it?
